@@ -6,27 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		FC2001DC2D4A633B00770354 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC2001BD2D4A633900770354 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC2001C42D4A633900770354;
-			remoteInfo = PizzaDeliveryApp;
-		};
-		FC2001E62D4A633B00770354 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC2001BD2D4A633900770354 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC2001C42D4A633900770354;
-			remoteInfo = PizzaDeliveryApp;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		FC20022F2D4A6BB900770354 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC20022E2D4A6BB900770354 /* SnapKit */; };
+		FC2002322D4A6BDA00770354 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FC2002312D4A6BDA00770354 /* Alamofire */; };
+		FC2002352D4A6BEA00770354 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FC2002342D4A6BEA00770354 /* Kingfisher */; };
+		FC2002402D4A6D1800770354 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = FC20023F2D4A6D1800770354 /* KeychainAccess */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC2001C52D4A633900770354 /* PizzaDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2001DB2D4A633B00770354 /* PizzaDeliveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaDeliveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2001E52D4A633B00770354 /* PizzaDeliveryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaDeliveryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -55,20 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2001D82D4A633B00770354 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2001E22D4A633B00770354 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FC2002402D4A6D1800770354 /* KeychainAccess in Frameworks */,
+				FC2002352D4A6BEA00770354 /* Kingfisher in Frameworks */,
+				FC20022F2D4A6BB900770354 /* SnapKit in Frameworks */,
+				FC2002322D4A6BDA00770354 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				FC2001C52D4A633900770354 /* PizzaDeliveryApp.app */,
-				FC2001DB2D4A633B00770354 /* PizzaDeliveryAppTests.xctest */,
-				FC2001E52D4A633B00770354 /* PizzaDeliveryAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,50 +89,14 @@
 			);
 			name = PizzaDeliveryApp;
 			packageProductDependencies = (
+				FC20022E2D4A6BB900770354 /* SnapKit */,
+				FC2002312D4A6BDA00770354 /* Alamofire */,
+				FC2002342D4A6BEA00770354 /* Kingfisher */,
+				FC20023F2D4A6D1800770354 /* KeychainAccess */,
 			);
 			productName = PizzaDeliveryApp;
 			productReference = FC2001C52D4A633900770354 /* PizzaDeliveryApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FC2001DA2D4A633B00770354 /* PizzaDeliveryAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC2001F32D4A633B00770354 /* Build configuration list for PBXNativeTarget "PizzaDeliveryAppTests" */;
-			buildPhases = (
-				FC2001D72D4A633B00770354 /* Sources */,
-				FC2001D82D4A633B00770354 /* Frameworks */,
-				FC2001D92D4A633B00770354 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC2001DD2D4A633B00770354 /* PBXTargetDependency */,
-			);
-			name = PizzaDeliveryAppTests;
-			packageProductDependencies = (
-			);
-			productName = PizzaDeliveryAppTests;
-			productReference = FC2001DB2D4A633B00770354 /* PizzaDeliveryAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FC2001E42D4A633B00770354 /* PizzaDeliveryAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC2001F62D4A633B00770354 /* Build configuration list for PBXNativeTarget "PizzaDeliveryAppUITests" */;
-			buildPhases = (
-				FC2001E12D4A633B00770354 /* Sources */,
-				FC2001E22D4A633B00770354 /* Frameworks */,
-				FC2001E32D4A633B00770354 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC2001E72D4A633B00770354 /* PBXTargetDependency */,
-			);
-			name = PizzaDeliveryAppUITests;
-			packageProductDependencies = (
-			);
-			productName = PizzaDeliveryAppUITests;
-			productReference = FC2001E52D4A633B00770354 /* PizzaDeliveryAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -171,14 +111,6 @@
 					FC2001C42D4A633900770354 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					FC2001DA2D4A633B00770354 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = FC2001C42D4A633900770354;
-					};
-					FC2001E42D4A633B00770354 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = FC2001C42D4A633900770354;
-					};
 				};
 			};
 			buildConfigurationList = FC2001C02D4A633900770354 /* Build configuration list for PBXProject "PizzaDeliveryApp" */;
@@ -187,37 +119,28 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = FC2001BC2D4A633900770354;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FC20022D2D4A6BB900770354 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FC2002302D4A6BDA00770354 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FC2002332D4A6BEA00770354 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FC20023E2D4A6D1800770354 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC2001C62D4A633900770354 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FC2001C42D4A633900770354 /* PizzaDeliveryApp */,
-				FC2001DA2D4A633B00770354 /* PizzaDeliveryAppTests */,
-				FC2001E42D4A633B00770354 /* PizzaDeliveryAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FC2001C32D4A633900770354 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2001D92D4A633B00770354 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2001E32D4A633B00770354 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,34 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC2001D72D4A633B00770354 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC2001E12D4A633B00770354 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FC2001DD2D4A633B00770354 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC2001C42D4A633900770354 /* PizzaDeliveryApp */;
-			targetProxy = FC2001DC2D4A633B00770354 /* PBXContainerItemProxy */;
-		};
-		FC2001E72D4A633B00770354 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC2001C42D4A633900770354 /* PizzaDeliveryApp */;
-			targetProxy = FC2001E62D4A633B00770354 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FC2001EF2D4A633B00770354 /* Debug */ = {
@@ -385,6 +281,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -441,79 +338,8 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FC2001F42D4A633B00770354 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BUF892U9LY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tarchenko.PizzaDeliveryAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaDeliveryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PizzaDeliveryApp";
-			};
-			name = Debug;
-		};
-		FC2001F52D4A633B00770354 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BUF892U9LY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tarchenko.PizzaDeliveryAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaDeliveryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PizzaDeliveryApp";
-			};
-			name = Release;
-		};
-		FC2001F72D4A633B00770354 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BUF892U9LY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tarchenko.PizzaDeliveryAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PizzaDeliveryApp;
-			};
-			name = Debug;
-		};
-		FC2001F82D4A633B00770354 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BUF892U9LY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tarchenko.PizzaDeliveryAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PizzaDeliveryApp;
 			};
 			name = Release;
 		};
@@ -538,25 +364,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC2001F32D4A633B00770354 /* Build configuration list for PBXNativeTarget "PizzaDeliveryAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC2001F42D4A633B00770354 /* Debug */,
-				FC2001F52D4A633B00770354 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC2001F62D4A633B00770354 /* Build configuration list for PBXNativeTarget "PizzaDeliveryAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC2001F72D4A633B00770354 /* Debug */,
-				FC2001F82D4A633B00770354 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC20022D2D4A6BB900770354 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		FC2002302D4A6BDA00770354 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		FC2002332D4A6BEA00770354 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.4;
+			};
+		};
+		FC20023E2D4A6D1800770354 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC20022E2D4A6BB900770354 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC20022D2D4A6BB900770354 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FC2002312D4A6BDA00770354 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC2002302D4A6BDA00770354 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FC2002342D4A6BEA00770354 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC2002332D4A6BEA00770354 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FC20023F2D4A6D1800770354 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC20023E2D4A6D1800770354 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC2001BD2D4A633900770354 /* Project object */;
 }
