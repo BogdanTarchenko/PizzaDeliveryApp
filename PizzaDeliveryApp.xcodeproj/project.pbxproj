@@ -48,16 +48,6 @@
 			path = PizzaDeliveryApp;
 			sourceTree = "<group>";
 		};
-		FC2001DE2D4A633B00770354 /* PizzaDeliveryAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PizzaDeliveryAppTests;
-			sourceTree = "<group>";
-		};
-		FC2001E82D4A633B00770354 /* PizzaDeliveryAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PizzaDeliveryAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				FC2001C72D4A633900770354 /* PizzaDeliveryApp */,
-				FC2001DE2D4A633B00770354 /* PizzaDeliveryAppTests */,
-				FC2001E82D4A633B00770354 /* PizzaDeliveryAppUITests */,
 				FC2001C62D4A633900770354 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				FC2001DD2D4A633B00770354 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				FC2001DE2D4A633B00770354 /* PizzaDeliveryAppTests */,
-			);
 			name = PizzaDeliveryAppTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				FC2001E72D4A633B00770354 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FC2001E82D4A633B00770354 /* PizzaDeliveryAppUITests */,
 			);
 			name = PizzaDeliveryAppUITests;
 			packageProductDependencies = (
@@ -294,7 +276,6 @@
 				INFOPLIST_FILE = PizzaDeliveryApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +303,6 @@
 				INFOPLIST_FILE = PizzaDeliveryApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
